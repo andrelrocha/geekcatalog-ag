@@ -1,1 +1,32 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  --blue: #87CEEB;
+  --green: #98FB98;
+  --redWeak: #FFB6C1;
+  --redWeakDarker: #DAAEB6;
+  --redStrong: #E51A0F;
+  --redMid: #FF3131;
+  --greenStrong: #008000;
+  --black: #000000;
+  --blackOpacity: rgba(0, 0, 0, 0.5);
+  --sage: #CCC9A1;
+  --sageOpacity: rgba(204, 201, 161, 0.3);
+  --greenWeak: #F0FFCE;
+  --lightBlue: #E4D9FF;
+  --whiteSmoke: #F4F4F4;
+  --buttonBlue: #007bff;
+  --lightGray: #D3D3D3;
+  --gray: #808080;
+  --grayOpacity: rgba(128, 128, 128, 0.3);
+  --grayPlaceholder: rgba(128, 128, 128, 0.5);
+
+  --mainFont: 'Poppins', sans-serif;
+  --mainFontWeight: 400;
+  --titleFontWeight: 700;
+}
+
+main {
+  background: var(--whiteSmoke);
+  minHeight: 100vh;
+}
