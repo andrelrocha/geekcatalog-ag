@@ -1,7 +1,49 @@
-.example-spacer {
+#toolbar {
+  background-color: var(--black);
+  flex: 1;
+  color: var(--whiteSmoke);
+  padding: 0 6rem;
+}
+
+.spacer {
   flex: 1 1 auto;
 }
 
-.logo {
-  fill: var(--black);
+#logoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+#logoTitle {
+  font-family: var(--mainFont);
+  font-weight: var(--titleFontWeight);
+}
+
+#navButton {
+  color: var(--whiteSmoke);
+}
+
+#navButton:hover {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+/*button mat-stroked material css*/
+.mat-mdc-outlined-button:not(:disabled) {
+  color: var(--whiteSmoke);
+  border-color: var(--whiteSmoke);
+}
+
+#signInButton:hover {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+#signUpButton:hover {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+#buttonsContainer {
+  display: flex;
+  gap: 0.5rem;
 }

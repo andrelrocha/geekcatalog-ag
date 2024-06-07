@@ -1,1 +1,19 @@
-<p>header works!</p>
+<header>
+  <mat-toolbar id="toolbar">
+      <div id="logoContainer">
+        <img src="assets/images/logo.svg" alt="Geek Catalog Logo" id="logo">
+        <span id="logoTitle">Geek Catalog</span>
+      </div>
+
+      <span class="spacer"></span>
+  <!-- <button mat-button routerLink="/home">Home</button>
+  <button mat-button routerLink="/games">Games</button>
+  -->
+      <div id="buttonsContainer">
+        <button mat-button id="navButton">Home</button>
+        <button mat-button id="navButton">About</button>
+        <button mat-raised-button color="primary" id="signUpButton">Sign-Up</button>
+        <button mat-stroked-button id="signInButton">Sign-In</button>
+      </div>
+  </mat-toolbar>
+</header>
