@@ -46,3 +46,15 @@
   display: flex;
   gap: 0.5rem;
 }
+
+@media (max-width: 576px) {
+  #toolbar {
+    padding: 0 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  #toolbar {
+    padding: 0 4rem;
+  }
+}
